@@ -26,3 +26,5 @@ var x = setInterval(function() {
         document.getElementById("demo").innerHTML = "BERTH";
     }
 }, 1000);
+
+document.getElementById("demo2").innerHTML = new Date();
