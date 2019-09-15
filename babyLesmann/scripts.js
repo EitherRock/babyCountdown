@@ -28,4 +28,4 @@ var x = setInterval(function() {
 }, 1000);
 
 var today = new Date();
-document.getElementById("demo2").innerHTML = "bird";
+document.getElementById("demo2") = "bird";
