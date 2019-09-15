@@ -1,0 +1,14 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+.gradient{
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-image: url("baby_pic.jpg");
+    background-position: right;
+}
+#demo{
+    margin: auto;
+}
