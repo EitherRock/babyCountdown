@@ -1,31 +1,29 @@
-// set the date to count down to
-var countDownDate = new Date("2/19/2020 07:00:00").getTime();
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 19, 2020 07:00:00").getTime();
 
-// update the count down every second
+// Update the count down every 1 second
 var x = setInterval(function() {
 
-    // get todays date and time
-    var now = new Date().getTime;
+  // Get today's date and time
+  var now = new Date().getTime();
 
-    // Find the distance between now and the coutn down date
-    var distance = countDownDate - now;
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
 
-    // time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // display the results in the element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h " 
-    + minutes + "m " + seconds + "s ";
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
-    // if the count down is finished, write some text
-    if (distance < 0){
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "BERTH";
-    }
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
 }, 1000);
 
-var today = new Date();
-document.getElementById("demo2") = "bird";
