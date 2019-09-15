@@ -1,8 +1,8 @@
 // set the date to count down to
-var countDownDate = new Date("Feb 19, 2020 07:00:00").getTime();
+var countDownDate = new Date("2/19/2020 07:00:00").getTime();
 
 // update the count down every second
-var x = setInterval(function(){
+var x = setInterval(function() {
 
     // get todays date and time
     var now = new Date().getTime;
