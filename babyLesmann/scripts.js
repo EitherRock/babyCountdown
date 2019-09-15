@@ -27,5 +27,5 @@ var x = setInterval(function() {
     }
 }, 1000);
 
-var today = new Date().getTime;
+var today = new Date();
 document.getElementById("demo2").innerHTML = today;
