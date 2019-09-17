@@ -9,6 +9,10 @@ body{
     background-image: url("baby_pic.jpg");
     background-position: right;
 }
-#demo{
-    margin: auto;
+#date{
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 80px;
+    
 }
