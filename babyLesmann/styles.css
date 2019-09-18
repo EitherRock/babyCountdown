@@ -11,6 +11,12 @@ body{
     background-image: url("baby_pic.jpg");
     background-position: right;
 }
+@media(max-width: 600px){
+    .gradient{
+        background-image: url("responsive-pic.jpg");
+        background-position: center;
+    }
+}
 #date{
     text-align: center;
     padding: 0%;
