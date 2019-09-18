@@ -22,8 +22,23 @@ body{
     padding: 0px;
     margin:0px;
 }
+@media(max-width: 600px) {
+    #count{
+        font-size: 60px;
+    }
+}
 #registry{
+    padding: 10px;
     font-size: 25px;
     color: grey;
-    
+}
+a:link {
+    text-decoration: none;
+    color:  #008080;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #008080;
 }
