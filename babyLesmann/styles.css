@@ -13,11 +13,17 @@ body{
 }
 #date{
     text-align: center;
+    padding: 0%;
     margin-top: 10%;
     font-size: 80px;
-    
+    text-shadow: 1px 1px black;
+}
+#count{
+    padding: 0px;
+    margin:0px;
 }
 #registry{
+    font-size: 25px;
     color: grey;
-    text-align: center;
+    
 }
