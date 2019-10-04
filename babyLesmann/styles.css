@@ -11,7 +11,7 @@ body{
     background-image: url("baby_pic.jpg");
     background-position: right;
 }
-@media(max-width: 600px){
+@media only screen and (max-width: 600px){
     .gradient{
         background-image: url("responsive-pic.jpg");
         background-position: center;
@@ -28,7 +28,7 @@ body{
     padding: 0px;
     margin:0px;
 }
-@media(max-width: 600px) {
+@media only screen and (max-width: 600px) {
     #count{
         font-size: 60px;
     }
